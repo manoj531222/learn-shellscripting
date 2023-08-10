@@ -1,7 +1,14 @@
-set -x
+#set -x
+#
+#ls -l
+#
+#uname -a
+#
+#yum list installed
 
-ls -l
-
-uname -a
-
-yum list installed
+[mongodb-org-4.2]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.2/x86_64/
+gpgcheck=0
+enabled=1
+217.0.0.1 yefdefyegfyefy 212.1.11.1
