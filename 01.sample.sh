@@ -1,4 +1,4 @@
-set - x
+set -x
 
 ls -l
 
